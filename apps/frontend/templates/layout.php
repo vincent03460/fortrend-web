@@ -173,8 +173,6 @@ use_helper('I18N');
                             <li type="disc">Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</li>
                         </ul>
                     </section>
-
-
                 </div>
             </div>
         </div>

@@ -1,42 +1,24 @@
-<?php
-use_helper('I18N');
-?>
-<section class="property-banner" id="page-banner">
-    <img src="/images/page-property-banner.jpg" alt="" class="img-responsive">
-</section>
+<div class="recentworks bottom-pad">
+   <div class="container" style="font-size: 11px">
+      <span style="font-size: 35px; font-family: times;">PROPERTY</span></br>
+s varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</br>
+Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed</br>
+ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec o</br>
+  </div>
+</div>
 
-<section id="content">
-    <div class="row" id="gallery">
-        <div class="col-md-3">
-            <div class="sidebar-menu">
-                <div class="sidebar-title">
-                    <h2><?php echo __("Property") ?></h2>
-                </div>
-                <?php include_component('component', 'leftmenu', array("module" => $sf_context->getModuleName(), "action" => $sf_context->getActionName())) ?>
-            </div>
-        </div>
-        <div class="col-md-9" id="page-content">
-            <div class="row">
-                <div class="col-md-8">
-                    <h2><?php echo __("Development of a 24 Storey 5-Star Service Suites") ?></h2>
+<div class="bottom-pad">
+   <div class="container">
+        <img style="padding:3px 3px 3px 3px;border-width:8px; border-style: ridge !important; border-color: gray" src="/images/hero-03.jpg" width="1200px" height="500px" alt="">
+     </div>
+</div>
 
-                    <div class="divider"></div>
-                    <ul class="property-listing">
-                        <li><?php echo __("Environment conducive to talent and knowledge-based industry.") ?></li>
-                        <li><?php echo __("In the heart of Kuala Lumpur - minutes' walk to central business district and PETRONAS Twin Towers.") ?></li>
-                        <li><?php echo __("Pedestrian-friendly environment.") ?></li>
-                        <li><?php echo __("Public realm - open space for recreation and social activities.") ?></li>
-                        <li><?php echo __("Arts and cultural centre.") ?></li>
-                        <li><?php echo __("Build-in future-proof digital master plan.") ?></li>
-                        <li><?php echo __("MRT accessibility and connectivity to major highways and airport.") ?></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <img src="/images/propety-introduction_01.jpg" class="img-responsive img-styled mb10">
-                    <img src="/images/propety-introduction_02.jpg" class="img-responsive img-styled mb10">
-                    <img src="/images/propety-introduction_03.jpg" class="img-responsive img-styled mb10">
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<div class="recentworks bottom-pad">
+   <div class="container"  style="color: #A4A4A4">
+       <b><small>
+         138 precious suites available, spaciously distributed up to 24 levels. The apartment is close to work and offers you space for leisure and recreation when you reach home.</br></br>
+        Located strategically in the vibrant city life of KL, this development has been designed as a lifestyle hub for the vibrant, upwardly mobile community.</br></br>
+        And when you make your home at here, the vibrant life in the heart of Malaysia will be right at your doorstep.</br></br>
+        </small></b>
+  </div>
+</div>
