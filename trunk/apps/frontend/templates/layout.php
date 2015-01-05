@@ -1,3 +1,7 @@
+<?php
+use_helper('I18N');
+?>
+
 <!DOCTYPE html>
 <html class="ie ie8">
 <html class="ie ie9">
@@ -61,7 +65,7 @@
             <div class="slidedown collapse">
                 <div class="container">
                     <div class="pull-right">
-                        <a href="#">Login</a>
+                        <a href="http://fortrend-international.com/" target="_blank">LOGIN</a>
                     </div>
                 </div>
             </div>
@@ -97,44 +101,37 @@
                 <nav class="collapse navbar-collapse menu">
                     <ul class="nav navbar-nav sf-menu">
                         <li>
-                            <a id="current" href="index.html">
-                                HOME
-                            </a>
+                            <a href="/home">HOME</a>
                         </li>
 
                         <li>
                             <a href="#" class="sf-with-ul">
                                 PROPERTY
-                           <span class="sf-sub-indicator">
-                           <i class="fa fa-angle-down "></i>
-                           </span>
+                                <span class="sf-sub-indicator"><i class="fa fa-angle-down "></i></span>
                             </a>
                             <ul>
-                                <li><a href="shortcodes.html" class="sf-with-ul">INTRODUCTION</a></li>
-                                <li><a href="icons.html" class="sf-with-ul">CONCEPT</a></li>
-                                <li><a href="pricing-table.html" class="sf-with-ul">FLOOR PLANS</a></li>
-                                <li><a href="pricing-table.html" class="sf-with-ul">GALLERY</a></li>
+                                <li><a href="/property" class="sf-with-ul">INTRODUCTION</a></li>
+                                <li><a href="/property/concept" class="sf-with-ul">CONCEPT</a></li>
+                                <li><a href="/property/floorPlans" class="sf-with-ul">FLOOR PLANS</a></li>
+                                <li><a href="/property/gallery" class="sf-with-ul">GALLERY</a></li>
                             </ul>
                         </li>
 
                         <li>
                             <a href="#" class="sf-with-ul">
                                 GREATCOIN
-                           <span class="sf-sub-indicator">
-                           <i class="fa fa-angle-down "></i>
-                           </span>
+                                <span class="sf-sub-indicator"><i class="fa fa-angle-down "></i></span>
                             </a>
                             <ul>
-                                <li><a href="about.html" class="sf-with-ul">GREAT COIN</a></li>
-                                <li><a href="services.html" class="sf-with-ul">INTRODUCTIONWHAT IS GREATCOIN</a></li>
-                                <li><a href="testimonials.html" class="sf-with-ul">BENEFITS OF GREATCOIN</a></li>
-                                <li><a href="full-width.html" class="sf-with-ul">HOW GREATCOIN WORKS</a></li>
+                                <li><a href="/greatcoin" class="sf-with-ul">GREAT COIN</a></li>
+                                <li><a href="/greatcoin/whatIsGreatcoin" class="sf-with-ul">INTRODUCTION WHAT IS GREATCOIN</a></li>
+                                <li><a href="/greatcoin/benefitsOfGreatcoin" class="sf-with-ul">BENEFITS OF GREATCOIN</a></li>
+                                <li><a href="/greatcoin/howGreatcoinWorks" class="sf-with-ul">HOW GREATCOIN WORKS</a></li>
                             </ul>
                         </li>
 
-                        <li><a href="#">
-                            KEEP IN TOUCH
-                        </a>
+                        <li>
+                            <a href="/keep_in_touch">KEEP IN TOUCH</a>
                         </li>
                     </ul>
                 </nav>
@@ -153,24 +150,21 @@
     <!-- Footer Start -->
     <footer id="footer">
         <!-- Footer Top Start -->
-        <div class="footer-bottom">
+        <div class="footer-top">
             <div class="container">
                 <div class="row">
-                    <div style="color: yellow;">Latest news & event</div>
-                    <div style="width: 100%; font-size: 10px">
-                        <div style="float:left; width: 50%">
-                        <ul>
+                    <section class="col-lg-6 col-md-6 col-xs-12 col-sm-6 footer-one">
+                        <h3>Latest news &amp; event</h3>
+                        <ul style="margin-left: 22px;">
                             <li type="disc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
                             <li type="disc">Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</li>
-                            <li type="disc">Aenean massa. Cum sociis natoque penatibus et magnis dis part urient montes, nascetur ridiculus mus.
-                        Nulla consequat massa quis enim. Donec pede justo, fringilla ve l, aliquet nec, vulputate eget, ar cu.</li>
+                            <li type="disc">Aenean massa. Cum sociis natoque penatibus et magnis dis part urient montes, nascetur ridiculus mus. Nulla consequat massa quis enim. Donec pede justo, fringilla ve l, aliquet nec, vulputate eget, ar cu.</li>
                             <li type="disc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
                             <li type="disc">Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</li>
                         </ul>
-                        </div>
-
-                        <div style="float:right; width: 50%">
-                        <ul>
+                    </section>
+                    <section class="col-lg-6 col-md-6 col-xs-12 col-sm-6 footer-two">
+                        <ul style="margin-left: 22px;">
                             <li type="disc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, aliquet nec, vulputate eget.</li>
                             <li type="disc">Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</li>
                             <li type="disc">Aenean massa. Cum sociis natoque penatibus et magnis dis part urient montes, nascetur ridiculus mus.</li>
@@ -178,15 +172,22 @@
                             <li type="disc">Lorem ipsum dolor sit amet, Donec pede justo, fringilla vel, aliqu et nec, vulputate eget, ar cu.</li>
                             <li type="disc">Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</li>
                         </ul>
-                        </div>
-                    </div>
+                    </section>
+
+
                 </div>
-                <center>
-                <div style="margin-top:10px; font-size: 10px" ><small>© 2014 fortrend.co. All rights reserved.</small></div>
-                </center>
             </div>
         </div>
         <!-- Footer Top End -->
+        <!-- Footer Bottom Start -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 "> © Copyright 2014 by <a style="cursor: pointer;">Pixma</a>. All Rights Reserved.</div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom End -->
     </footer>
     <!-- Scroll To Top -->
     
@@ -216,5 +217,21 @@
 <script src="/js/imagesloaded.pkgd.min.js"></script>
 <script src="/js/waypoints.min.js"></script>
 <script src="/js/custom.js"></script>
+
+<script type="text/javascript">
+    function initActiveMenu() {
+        var url = "<?php echo "/" . $sf_context->getModuleName() ?>";
+        var menu = $("nav.menu > ul.sf-menu > li > a[href$=\"" + url + "\"]");
+
+        if (menu.length) {
+            menu.attr("id", "current");
+        }
+    }
+
+    initActiveMenu();
+</script>
+
+<?php include_slot("javascript") ?>
+
 </body>
 </html>
