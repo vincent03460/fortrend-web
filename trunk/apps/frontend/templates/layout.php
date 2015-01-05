@@ -8,7 +8,7 @@ use_helper('I18N');
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Pixma Responsive HTML5/CSS3 Template | FIFO THEMES</title>
+    <title>Fortrend</title>
     <meta name="description" content="Pixma Responsive HTML5/CSS3 Template from FIFOTHEMES.COM">
     <meta name="author" content="FIFOTHEMES.COM">
     <!-- Mobile Metas -->
