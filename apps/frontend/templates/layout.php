@@ -181,7 +181,7 @@ use_helper('I18N');
         <div class="footer-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 "> © Copyright 2014 by <a style="cursor: pointer;">Pixma</a>. All Rights Reserved.</div>
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 "> © Copyright 2014. All Rights Reserved.</div>
                 </div>
             </div>
         </div>
@@ -223,6 +223,14 @@ use_helper('I18N');
 
         if (menu.length) {
             menu.attr("id", "current");
+            return;
+        }
+
+        menu = $("nav.menu > ul.sf-menu > li > ul > li > a[href$=\"" + url + "\"]");
+
+        if (menu.length) {
+            menu.parent().parent().prev().attr("id", "current");
+            return;
         }
     }
 
