@@ -1,6 +1,9 @@
 <?php
 use_helper('I18N');
 ?>
+
+
+
 <section id="page-banner">
     <img src="/images/page-greatcoin-banner.jpg" alt="" class="img-responsive">
 </section>
