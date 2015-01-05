@@ -153,25 +153,37 @@
     <!-- Footer Start -->
     <footer id="footer">
         <!-- Footer Top Start -->
-        <div class="footer-top">
+        <div class="footer-bottom">
             <div class="container">
                 <div class="row">
                     <div style="color: yellow;">Latest news & event</div>
-                    <ul>
-                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                        <li>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</li>
-                        <li>Aenean massa. Cum sociis natoque penatibus et magnis dis part urient montes, nascetur ridiculus mus.
-                    Nulla consequat massa quis enim. Donec pede justo, fringilla ve l, aliquet nec, vulputate eget, ar cu.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-                        <li>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</li>
-                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, aliquet nec, vulputate eget.</li>
-                        <li>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</li>
-                        <li>Aenean massa. Cum sociis natoque penatibus et magnis dis part urient montes, nascetur ridiculus mus.</li>
-                        <li>Nulla consequat massa quis enim. Donec pede justo, fringilla ve l, aliquet nec, vulputate eget, ar cu.</li>
-                        <li>Lorem ipsum dolor sit amet, Donec pede justo, fringilla vel, aliqu et nec, vulputate eget, ar cu.</li>
-                        <li>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</li>
-                    </ul>
+                    <div style="width: 100%; font-size: 10px">
+                        <div style="float:left; width: 50%">
+                        <ul>
+                            <li type="disc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                            <li type="disc">Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</li>
+                            <li type="disc">Aenean massa. Cum sociis natoque penatibus et magnis dis part urient montes, nascetur ridiculus mus.
+                        Nulla consequat massa quis enim. Donec pede justo, fringilla ve l, aliquet nec, vulputate eget, ar cu.</li>
+                            <li type="disc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                            <li type="disc">Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</li>
+                        </ul>
+                        </div>
+
+                        <div style="float:right; width: 50%">
+                        <ul>
+                            <li type="disc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, aliquet nec, vulputate eget.</li>
+                            <li type="disc">Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</li>
+                            <li type="disc">Aenean massa. Cum sociis natoque penatibus et magnis dis part urient montes, nascetur ridiculus mus.</li>
+                            <li type="disc">Nulla consequat massa quis enim. Donec pede justo, fringilla ve l, aliquet nec, vulputate eget, ar cu.</li>
+                            <li type="disc">Lorem ipsum dolor sit amet, Donec pede justo, fringilla vel, aliqu et nec, vulputate eget, ar cu.</li>
+                            <li type="disc">Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</li>
+                        </ul>
+                        </div>
+                    </div>
                 </div>
+                <center>
+                <div style="margin-top:10px; font-size: 10px" ><small>© 2014 fortrend.co. All rights reserved.</small></div>
+                </center>
             </div>
         </div>
         <!-- Footer Top End -->
