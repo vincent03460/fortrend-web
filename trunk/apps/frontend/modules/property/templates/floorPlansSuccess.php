@@ -1,44 +1,32 @@
-<?php
-use_helper('I18N');
-?>
-<section class="property-banner" id="page-banner">
-    <img src="/images/page-property-banner.jpg" alt="" class="img-responsive">
-</section>
+<div class="recentworks bottom-pad">
+   <div class="container" style="font-size: 11px">
+      <span style="font-size: 35px; font-family: times;">FLOOR PLAN</span></br>
+s varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</br>
+Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed</br>
+ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec o</br>
+  </div>
+</div>
 
-<section id="content">
-    <div class="row" id="floor-plans">
-        <div class="col-md-3">
-            <div class="sidebar-menu">
-                <div class="sidebar-title">
-                    <h2><?php echo __("Property") ?></h2>
-                </div>
-                <?php include_component('component', 'leftmenu', array("module" => $sf_context->getModuleName(), "action" => $sf_context->getActionName())) ?>
+<div class="bottom-pad">
+   <div class="container">
+        <div class="row" align="center">
+            <div style="float:left; width:50%; border-style: solid; border-width:8px; border-color: #E6E6E6">
+                <img src="/images/floor-plans_1200psf.jpg" width="450px" height="300px" alt="">
+                </br>Suite - 1,200 sqft
             </div>
-        </div>
-        <div class="col-md-9" id="page-content">
-            <h2><?php echo __("Floor Plans") ?></h2>
-
-            <div class="divider"></div>
-
-            <div class="row mb20">
-                <div class="col-xs-6">
-                    <img src="/images/floor-plans_1200psf.jpg" class="img-responsive img-styled mb10">
-
-                    <p class="textCetner"><?php echo __("Suite - %1% sqft", array("%1%" => "1,200")) ?></p>
+            <span style="float:right; width:40%">
+                <div style="border-style: solid; padding-top:20px; border-width:8px; border-color: #E6E6E6">
+                    <img src="/images/floor-plans_800psf.jpg" width="300px" height="200px" alt="">
+                    </br>Suite - 800 sqft
                 </div>
-                <div class="col-xs-6">
-                    <img src="/images/floor-plans_800psf.jpg" class="img-responsive img-styled mb10">
 
-                    <p class="textCetner"><?php echo __("Suite - %1% sqft", array("%1%" => "800")) ?></p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-xs-6">
-                    <img src="/images/floor-plans_600psf.jpg" class="img-responsive img-styled mb10">
+                    </br>
 
-                    <p class="textCetner"><?php echo __("Suite - %1% sqft", array("%1%" => "600")) ?></p>
+                <div style="border-style: solid; border-width:8px; border-color: #E6E6E6">
+                    <img src="/images/floor-plans_600psf.jpg" width="300px" height="200px" alt="">
+                    </br>Suite - 600 sqft
                 </div>
-            </div>
+            </span>
         </div>
     </div>
-</section>
+</div>
