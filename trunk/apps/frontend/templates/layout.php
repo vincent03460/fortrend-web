@@ -13,6 +13,8 @@ use_helper('I18N');
     <meta name="author" content="FIFOTHEMES.COM">
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Translate Plugin -->
+    <meta name="google-translate-customization" content="601c2b064fd9dfaf-09f6dce50bd7c3e8-g7a1fe1a94c78474c-1b">
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
@@ -65,6 +67,9 @@ use_helper('I18N');
             <div class="slidedown collapse">
                 <div class="container">
                     <div class="pull-right">
+                        <div id="google_translate_element"></div>
+                    </div>
+                    <div class="pull-right" style="margin-right: 30px;">
                         <a href="http://member.fortrend-international.com/" target="_blank">LOGIN</a>
                     </div>
                 </div>
@@ -156,6 +161,9 @@ use_helper('I18N');
                     <section class="col-lg-6 col-md-6 col-xs-12 col-sm-6 footer-one">
                         <h3>Latest news &amp; event</h3>
                         <ul style="margin-left: 22px;">
+                            <li type="disc">Coming soon...</li>
+                        </ul>
+                        <ul style="margin-left: 22px; display: none;">
                             <li type="disc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
                             <li type="disc">Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</li>
                             <li type="disc">Aenean massa. Cum sociis natoque penatibus et magnis dis part urient montes, nascetur ridiculus mus. Nulla consequat massa quis enim. Donec pede justo, fringilla ve l, aliquet nec, vulputate eget, ar cu.</li>
@@ -164,7 +172,7 @@ use_helper('I18N');
                         </ul>
                     </section>
                     <section class="col-lg-6 col-md-6 col-xs-12 col-sm-6 footer-two">
-                        <ul style="margin-left: 22px;">
+                        <ul style="margin-left: 22px; display: none;">
                             <li type="disc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, aliquet nec, vulputate eget.</li>
                             <li type="disc">Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget.</li>
                             <li type="disc">Aenean massa. Cum sociis natoque penatibus et magnis dis part urient montes, nascetur ridiculus mus.</li>
@@ -215,6 +223,7 @@ use_helper('I18N');
 <script src="/js/imagesloaded.pkgd.min.js"></script>
 <script src="/js/waypoints.min.js"></script>
 <script src="/js/custom.js"></script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 <script type="text/javascript">
     function initActiveMenu() {
@@ -235,6 +244,10 @@ use_helper('I18N');
     }
 
     initActiveMenu();
+    
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'km,zh-CN,zh-TW', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+    }
 </script>
 
 <?php include_slot("javascript") ?>
