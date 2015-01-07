@@ -1,18 +1,20 @@
+<center>
 <div class="fullwidthbanner-container">
     <div class="fullwidthbanner rslider">
         <ul>
              <!-- THE FIRST SLIDE -->
              <li data-transition="fade" data-slotamount="7" data-masterspeed="500"  data-saveperformance="on">
-                 <img src="/images/Picture3.jpg"  alt="Pixma" data-lazyload="/images/Picture3.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                 <img src="/images/Picture3.jpg" width="500px"  alt="Pixma" data-lazyload="/images/Picture3.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
 
              </li>
              <!-- THE FIRST SLIDE -->
              <li data-transition="fade" data-slotamount="7" data-masterspeed="500"  data-saveperformance="on">
-                 <img src="/images/Picture2.jpg"  alt="Pixma" data-lazyload="/images/Picture2.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
+                 <img src="/images/Picture2.jpg" width="500px" alt="Pixma" data-lazyload="/images/Picture2.jpg" data-bgposition="center top" data-bgfit="cover" data-bgrepeat="no-repeat">
              </li>
         </ul>
     </div>
 </div>
+</center>
 <div class="recentworks pad">
    <div class="container">
       <b>
