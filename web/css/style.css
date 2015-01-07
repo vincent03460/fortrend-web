@@ -320,7 +320,7 @@ h2.title {
 }
 /* Slider */
 .fullwidthbanner-container {
-    width: 100% !important;
+    width: 80% !important;
     position: relative;
     max-height: 470px !important;
     overflow: hidden;
