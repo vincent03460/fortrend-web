@@ -9,7 +9,7 @@ use_helper('I18N');
 <head>
     <meta charset="utf-8">
     <title>Fortrend</title>
-    <meta name="description" content="Pixma Responsive HTML5/CSS3 Template from FIFOTHEMES.COM">
+    <meta name="description" content="Fortrend">
     <meta name="author" content="FIFOTHEMES.COM">
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,7 +65,7 @@ use_helper('I18N');
             <div class="slidedown collapse">
                 <div class="container">
                     <div class="pull-right">
-                        <a href="http://fortrend-international.com/" target="_blank">LOGIN</a>
+                        <a href="http://member.fortrend-international.com/" target="_blank">LOGIN</a>
                     </div>
                 </div>
             </div>
@@ -85,7 +85,7 @@ use_helper('I18N');
                 <div class="logo pull-left">
                     <h1>
                         <a href="index.html">
-                            <img src="/images/logo.png" alt="pixma" width="125" height="60">
+                            <img src="/images/logo.png" alt="Fortrend" height="70">
                         </a>
                     </h1>
                 </div>
