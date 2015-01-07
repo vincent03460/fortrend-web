@@ -82,7 +82,7 @@ use_helper('I18N');
                 </div>
                 <!-- TopNav End -->
                 <!-- Logo Start -->
-                <div class="logo pull-left">
+                <div class="logo pull-left" style="background-color:white; margin-top:2px;">
                     <h1>
                         <a href="index.html">
                             <img src="/images/logo.png" alt="Fortrend" height="70">
