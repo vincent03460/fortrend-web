@@ -85,7 +85,7 @@ use_helper('I18N');
                 <div class="logo pull-left"> 
                     <h1>
                         <a href="index.html">
-                            <img style="background-color:white; padding-bottom:10x;" src="/images/logo.png" alt="Fortrend" height="70px">
+                            <img style="padding-bottom: 10px;" src="/images/logo.png" alt="Fortrend" height="70px">
                         </a>
                     </h1>
                 </div>
