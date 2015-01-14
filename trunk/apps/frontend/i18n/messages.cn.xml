@@ -1,0 +1,339 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+  <file original="global" source-language="en_US" datatype="plaintext">
+      <body>
+          <trans-unit>
+              <source>Fortrend</source>
+              <target></target>
+          </trans-unit>
+          <trans-unit>
+              <source>Language</source>
+              <target>语言</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Loading...</source>
+              <target>加载中...</target>
+          </trans-unit>
+          <trans-unit>
+              <source>LOGIN</source>
+              <target>登入</target>
+          </trans-unit>
+          <trans-unit>
+              <source>HOME</source>
+              <target>首页</target>
+          </trans-unit>
+          <trans-unit>
+              <source>PROPERTY</source>
+              <target>房地产项目</target>
+          </trans-unit>
+          <trans-unit>
+              <source>INTRODUCTION</source>
+              <target>简介</target>
+          </trans-unit>
+          <trans-unit>
+              <source>CONCEPT</source>
+              <target>概念</target>
+          </trans-unit>
+          <trans-unit>
+              <source>FLOOR PLANS</source>
+              <target>平面图</target>
+          </trans-unit>
+          <trans-unit>
+              <source>GALLERY</source>
+              <target>设计图图库</target>
+          </trans-unit>
+          <trans-unit>
+              <source>GREAT COIN</source>
+              <target>特币</target>
+          </trans-unit>
+          <trans-unit>
+              <source>GREATCOIN</source>
+              <target>特币</target>
+          </trans-unit>
+          <trans-unit>
+              <source>INTRODUCTION WHAT IS GREATCOIN</source>
+              <target>特币的简介</target>
+          </trans-unit>
+          <trans-unit>
+              <source>BENEFITS OF GREATCOIN</source>
+              <target>特币的好处</target>
+          </trans-unit>
+          <trans-unit>
+              <source>HOW GREATCOIN WORKS</source>
+              <target>特币的操作</target>
+          </trans-unit>
+          <trans-unit>
+              <source>KEEP IN TOUCH</source>
+              <target>保持联络</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Latest news &amp; event</source>
+              <target>最新消息与活动</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Coming soon...</source>
+              <target>即将推出...</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Copyright 2014. All Rights Reserved.</source>
+              <target>版权所有。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Introduction</source>
+              <target></target>
+          </trans-unit>
+          <trans-unit>
+              <source>Concept</source>
+              <target>简介</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Floor Plans</source>
+              <target>平面图</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Gallery</source>
+              <target>设计图图库</target>
+          </trans-unit>
+          <trans-unit>
+              <source>What is Greatcoin</source>
+              <target>特币的简介</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Benefits of Greatcoin</source>
+              <target>特币的好处</target>
+          </trans-unit>
+          <trans-unit>
+              <source>How Greatcoin Works</source>
+              <target>特币的操作</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Keep in Touch</source>
+              <target>保持联络</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Login</source>
+              <target>登入</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Home</source>
+              <target>首页</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Property</source>
+              <target>房地产项目</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Greatcoin</source>
+              <target>特币</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Greatcoin is a digital wallet, a substitute for your money,you can use Greatcoin just like using cash.Because of the depreciation, in 10 years time RM100 might still be RM100 but the value will not be RM100 anymore due to inflation.But Greatcoin is different. In 10 years, the value of RM100 will increase to RM1000-RM5000.</source>
+              <target>特币就像是您虚拟钱包里的现金，能够被消费。由于货币的贬值，10年后的 100 马币 仍旧是 100马币，但因为通货膨胀，到时 100马币 的价值就有所不同了。换句话说，现在价值 100 马币 的商品，十年后可能需要 1000 到 5000马币购取。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>It's decentralized</source>
+              <target>不是单体操作</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Every machine that generates Greatcoin and processes transactions makes up a part of the network, and the machines work together. In summary, one central authority can't tinker with monetary policy and cause a meltdown - or simply decide to take people's Greatcoins away from them. If some part of the network goes offline for some reason, the money keeps on flowing.</source>
+              <target>通过多于一个伺服器生产特币与处理交易事务，而所有的伺服器都是共事的。总而言之， 任何单方面的中央管理都不能够干扰我们的货币政策系统并导致其崩溃或随意索取他人的特币。假如联网发生故障并导致其不能正常操作，所有资金流动将不受影响。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Quick and Easy to set up</source>
+              <target>简捷的设置</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Conventional banks make you jump through hoops simply to open a bank account, back and forth, its not fun. As for Greatcoin, you can set up an address in seconds, no questions asked, and with no fees payable.</source>
+              <target>传统银行让你赴汤蹈火，往返数回，只为开一个银行账户。至于特币，您可以在短短几秒钟拥有专属您的户口，不问任何的问题，也没有额外的收费。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Private &amp; Confidential</source>
+              <target>私隐和机密</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Greatcoin stores details of every single transaction that ever happened in the network. If you have a publicly used Greatcoin address, anyone can tell how many Greatcoins are stored at that address. They just don't know that it's yours.</source>
+              <target>特币伺服器存有任何的交易记录，假如您在网络上进行了任何的特币交易，所有人都能得知该交易，只不过系统不会出示任何关于您的资料。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Send Money anywhere</source>
+              <target>随时随地转账</target>
+          </trans-unit>
+          <trans-unit>
+              <source>You can send money anywhere and it will arrive minutes later, no hassle!</source>
+              <target>您可以随时随地通过系统作转账，而该交易将会在短短数分钟内完成。轻松也方便。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>It's non-repudiable</source>
+              <target>这是不可否定的</target>
+          </trans-unit>
+          <trans-unit>
+              <source>When your Greatcoins are sent, there's no getting them back, unless the recipient returns them to you. They're gone forever.</source>
+              <target>当您把持有的特币转发以后，您将无法取回，除非接收者将该特币返回给您，否则该特币将一去不复返了。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>So, Greatcoin has a lot going for. so what are you waiting for? sign up now!</source>
+              <target>除此以外，特币还附带很多有利条件。所以您还等什么呢？赶快注册！</target>
+          </trans-unit>
+          <trans-unit>
+              <source>It isn't just about sending money, it has many features and opens many possibilities that the community is still exploring. Here are some of the technologies currently being researched and in some cases, turned into real products and services.</source>
+              <target>除了转账系统以外，特币附带了其他功能，同时也在未来打开了许多社会仍在探索的可能性。以下是目前新科技与技术上的研究，以将其转化为实实在在的产品与服务。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Global access</source>
+              <target>全球通行</target>
+          </trans-unit>
+          <trans-unit>
+              <source>All payments in the world can be fully interoperable. Any bank, business or individual are securely send and receive payments anywhere at any time, with or without a bank account. Greatcoin is available in a large number of countries that still remain out of reach for most payment systems due to their own limitations. Greatcoin increases global access to commerce and it can help international trades to flourish.</source>
+              <target>您可以在世界各地随时作转账。无论您是否有银行户口，任何企业或个人转账都会安全地通过我们的支付系统被发送或接收。许多国家因自身的局限限制了支付系统，但特币仍然不受其影响。特币即将把电子商务系统推广全球化以帮助与促进国际贸易的蓬勃发展。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Cost efficient</source>
+              <target>成本效益</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Secure payments are possible without slow and costly middlemen with the help of cryptogrphy. Greatcoin transaction can be much cheaper than its alternatives and be completed in a short time, this means it holds some potential to become a common way to transfer any currency in the future. It could also play a role in reducing poverty in many countries by cutting high transaction fees on workers' salary.</source>
+              <target>特币转账通过安全支付系统与免除昂贵的中间人佣金绝对能为您剩下不少宝贵的时间。除此以外，使用特币消费能为您节省金钱，并在短时间内完成交易。这意味着特币在未来具备代替任何货币来消费地潜力，并将其普遍化。特币也可以减少贫困，许多国家可以通过削减高昂地交易费用，大大提升当地工人地工资。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Micro transaction</source>
+              <target>微交易</target>
+          </trans-unit>
+          <trans-unit>
+              <source>You can process payments to the scale of a dollar and soon even much smaller amounts. Such payments are routine even today. From viewing web pages with a small tip for each ad not shown, to buying bandwidth from a WiFi hotspot by the kilobyte. Greatcoin is efficient enough to make all of these ideas possible.</source>
+              <target>每一次地特币交易费只需仅仅一美元，甚至在短时间内会降至更低。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Flexibility</source>
+              <target>伸缩性</target>
+          </trans-unit>
+          <trans-unit>
+              <source>All the transactions are public and transparent and the identity of the people behind the payments is private by default. This allows individuals and organizations to work with flexible transparency rules. Now you can choose to reveal certain transactions and balances only to certain employees just like a non-profit organization is free to allow the public to see how much they receive in daily and monthly donations.</source>
+              <target>所有地交易都是公开和透明化的，只不过背后的支付人身份会被隐藏。这允许所有个人或组织在一个灵活且透明化的系统下共事。现在您可以选择向某些员工揭示您的交易或余额，就像一些非盈利组织可以自由地向公众揭示他们每日地收入或捐募款项。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>From a user perspective, Greatcoin is pretty much like cash for the Internet. Greatcoin is unique in that only 30 million greatcoins will ever be created.</source>
+              <target>从用户的角度来看，特币就像是互联网里的现金。它的特别之处就是在市场上仅有三千万个单位。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Why use Greatcoin?</source>
+              <target>为何改用特币?</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Safety</source>
+              <target>安全</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Educate everyone to not use real money, by using current technology (apps or computer). Just as our banking network. While preventing robberies and other risks.</source>
+              <target>教育所有人跟上现代的科技 (通过手机或电脑下载程序)，改用电子货而不是真实货币，就像通过互联网进行银行业务。把罪案率和其他的险降至最低。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Value</source>
+              <target>价值</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Because we only provide a maximum of 30,000,000 units (30 million) we are now a corporate hypermarkets, developers, chain stores and all places. In the future, you can use GreatCoin to invest in the market. </source>
+              <target>因为我们在市场上推出仅 30,000,000 个单位 (三千万)，我们拥有与各大超级市场，发展商，连锁店等等的合作关系。往后您还可以通过特币在市场上做投资。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>For example: real estate, stocks, foreign exchange, gold, futures, etc. Because of the limited amount of GreatCoins, the value will increase.</source>
+              <target>举例 : 房地产，货品，国外汇兑，黄金，期货，等等。藉由特币的单位在市场上有限，需求量会使其升值。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Career</source>
+              <target>事业</target>
+          </trans-unit>
+          <trans-unit>
+              <source>At the same time, We also create career opportunities for the people, Because GreatCoin can turn liabilities into assets. If more people are using Greatcoin, it will increase more job opportunity, hence gain popularity and value of Greatcoin.</source>
+              <target>通过多于一个伺服器生产特币与处理交易事务，而所有的伺服器都是共事的。总而言之， 任何单方面的中央管理都不能够干扰我们的货币政策系统并导致其崩溃或随意索取他人的特币。假如联网发生故障并导致其不能正常操作，所有资金流动将不受影响。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Development of a 24 Storey</source>
+              <target></target>
+          </trans-unit>
+          <trans-unit>
+              <source>5-Star Service Suites</source>
+              <target></target>
+          </trans-unit>
+          <trans-unit>
+              <source>138 precious suites available, spaciously distributed up to 24 levels. The apartment is close to work and offers you space for leisure and recreation when you reach home.</source>
+              <target>一栋拥有138个单位，高达24层的高级公寓，该公寓位于繁忙的吉隆坡市中心，但宽敞的休闲空间与设备让您享受舒适的居家生活。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Send Us an Email</source>
+              <target>给我们发邮件</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Name</source>
+              <target>姓名</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Email</source>
+              <target>电邮地址</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Subject</source>
+              <target>主题</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Message</source>
+              <target>信息</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Send</source>
+              <target>发送</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Keep In Touch</source>
+              <target>保持联络</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Feel free to talk to our online representative at any time you please using our Live Chat system on our website or one of the below instant messaging programs.</source>
+              <target>您可以随时通过我们的在线客服系统与在线代表询问详情，或者选择以下的电子邮件信息系统联络我们。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Please be patient while waiting for response. (24/7 Support!)</source>
+              <target>请您耐心等候我们的回复。(7/24 全天候为您服务)</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Environment conducive to talent and knowledge-based industry.</source>
+              <target></target>
+          </trans-unit>
+          <trans-unit>
+              <source>In the heart of Kuala Lumpur - minutes' walk to central busin ess district and PETRONAS Twin Towers.</source>
+              <target>位于金三角地带，短短十余分钟的步程就能抵达繁荣的商业街道与国油双峰塔。</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Pedestrian-friendly environment.</source>
+              <target></target>
+          </trans-unit>
+          <trans-unit>
+              <source>Public realm - open space for r ecreation and social activities.</source>
+              <target>拥有开放式的休闲或社交活动空间</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Arts and cultural centre.</source>
+              <target>艺术与文化的中心</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Build-in future-proof digital master plan.</source>
+              <target></target>
+          </trans-unit>
+          <trans-unit>
+              <source>MRT accessibility and connectivity to major highways and airport.</source>
+              <target></target>
+          </trans-unit>
+          <trans-unit>
+              <source>FLOOR PLAN</source>
+              <target>平面图</target>
+          </trans-unit>
+          <trans-unit>
+              <source>Suite - %1% sqft</source>
+              <target></target>
+          </trans-unit>
+          <trans-unit>
+              <source>138 precious suites available, spaciously distributed up to 24 levels. The apartment is close to work and offers you space for leisure and recreation when you reach home. %1%Located strategically in the vibrant city life of KL, this development has been designed as a lifestyle hub for the vibrant, upwardly mobile community. %1%And when you make your home at here, the vibrant life in the heart of Malaysia will be right at your doorstep.</source>
+              <target>一栋拥有138个单位，高达24层的高级公寓，该公寓位于繁忙的吉隆坡市中心，但宽敞的休闲空间与设备让您享受舒适的居家生活。%1%由于该公寓位于吉隆坡市中心金三角地带，该项目将被标志为时尚生活与上流社区。%1%假如您居住在此，位于马来西亚马来西亚首都市中心，一个充满活力的时尚生活您的居所门阶外。</target>
+          </trans-unit>
+      </body>
+  </file>
+</xliff>

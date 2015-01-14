@@ -18,6 +18,11 @@ test:
     no_script_name:         off
     etag:                   off
 
+all:
+  .settings:
+    charset:                utf-8
+    i18n:                   on
+
 #all:
 #  .actions:
 #    default_module:         default   # Default module and action to be called when

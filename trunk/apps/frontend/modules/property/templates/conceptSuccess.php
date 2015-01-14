@@ -1,9 +1,10 @@
+<?php
+use_helper('I18N');
+?>
+
 <div class="recentworks bottom-pad">
    <div class="container" style="font-size: 11px">
-      <span style="font-size: 35px; font-family: times;"> CONCEPT</span></br>
-s varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</br>
-Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed</br>
-ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec o</br>
+      <span style="font-size: 35px; font-family: times;"> <?php echo __("CONCEPT") ?></span>
   </div>
 </div>
 
@@ -11,15 +12,15 @@ ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecena
    <div class="container">
         <div class="row">
             <section class="col-lg-6 col-md-6 col-xs-12 col-sm-6 footer-one" style="margin-bottom:10px;">
-                <h3>Latest news &amp; event</h3>
+                <h3><?php echo __("Latest news & event") ?></h3>
                 <ul style="margin-left: 22px;">
-                    <li type="disc">Environment conducive to talent and knowledge-based industry.</li>
-                    <li type="disc">In the heart of Kuala Lumpur - minutes' walk to central busin ess district and PETRONAS Twin Towers.</li>
-                    <li type="disc">Pedestrian-friendly environment.</li>
-                    <li type="disc">Public realm - open space for r ecreation and social activities.</li>
-                    <li type="disc">Arts and cultural centre.</li>
-                    <li type="disc">Build-in future-proof digital master plan.</li>
-                    <li type="disc">MRT accessibility and connectivity to major highways and airport.</li>
+                    <li type="disc"><?php echo __("Environment conducive to talent and knowledge-based industry.") ?></li>
+                    <li type="disc"><?php echo __("In the heart of Kuala Lumpur - minutes' walk to central busin ess district and PETRONAS Twin Towers.") ?></li>
+                    <li type="disc"><?php echo __("Pedestrian-friendly environment.") ?></li>
+                    <li type="disc"><?php echo __("Public realm - open space for r ecreation and social activities.") ?></li>
+                    <li type="disc"><?php echo __("Arts and cultural centre.") ?></li>
+                    <li type="disc"><?php echo __("Build-in future-proof digital master plan.") ?></li>
+                    <li type="disc"><?php echo __("MRT accessibility and connectivity to major highways and airport.") ?></li>
                 </ul>
             </section>
             <center>

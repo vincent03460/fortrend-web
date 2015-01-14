@@ -8,13 +8,11 @@ use_helper('I18N');
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Fortrend</title>
+    <title><?php echo __("Fortrend") ?></title>
     <meta name="description" content="Fortrend">
     <meta name="author" content="FIFOTHEMES.COM">
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Google Translate Plugin -->
-    <meta name="google-translate-customization" content="601c2b064fd9dfaf-09f6dce50bd7c3e8-g7a1fe1a94c78474c-1b">
     <!-- Google Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
@@ -54,7 +52,7 @@ use_helper('I18N');
     <div class="page-loader">
 
         <div class="spinner"></div>
-        Loading...
+        <?php echo __("Loading...") ?>
     </div>
 
 </div>
@@ -67,10 +65,10 @@ use_helper('I18N');
             <div class="slidedown collapse">
                 <div class="container">
                     <div class="pull-right">
-                        <div id="google_translate_element"></div>
+                        <?php echo __("Language") ?>: <a href="/home/language?lang=cn">中文</a> | <a href="/home/language?lang=en">EN</a>
                     </div>
                     <div class="pull-right" style="margin-right: 30px;">
-                        <a href="http://member.fortrend-international.com/" target="_blank">LOGIN</a>
+                        <a href="http://member.fortrend-international.com/" target="_blank"><?php echo __("LOGIN") ?></a>
                     </div>
                 </div>
             </div>
@@ -89,7 +87,7 @@ use_helper('I18N');
                 <!-- Logo Start -->
                 <div class="logo pull-left"> 
                     <h1>
-                        <a href="index.html">
+                        <a href="/home">
                             <img style="padding-bottom: 10px;" src="/images/logo.png" alt="Fortrend" height="70px">
                         </a>
                     </h1>
@@ -106,37 +104,37 @@ use_helper('I18N');
                 <nav class="collapse navbar-collapse menu">
                     <ul class="nav navbar-nav sf-menu">
                         <li>
-                            <a href="/home">HOME</a>
+                            <a href="/home"><?php echo __("HOME") ?></a>
                         </li>
 
                         <li>
                             <a href="#" class="sf-with-ul">
-                                PROPERTY
+                                <?php echo __("PROPERTY") ?>
                                 <span class="sf-sub-indicator"><i class="fa fa-angle-down "></i></span>
                             </a>
                             <ul>
-                                <li><a href="/property" class="sf-with-ul">INTRODUCTION</a></li>
-                                <li><a href="/property/concept" class="sf-with-ul">CONCEPT</a></li>
-                                <li><a href="/property/floorPlans" class="sf-with-ul">FLOOR PLANS</a></li>
-                                <li><a href="/property/gallery" class="sf-with-ul">GALLERY</a></li>
+                                <li><a href="/property" class="sf-with-ul"><?php echo __("INTRODUCTION") ?></a></li>
+                                <li><a href="/property/concept" class="sf-with-ul"><?php echo __("CONCEPT") ?></a></li>
+                                <li><a href="/property/floorPlans" class="sf-with-ul"><?php echo __("FLOOR PLANS") ?></a></li>
+                                <li><a href="/property/gallery" class="sf-with-ul"><?php echo __("GALLERY") ?></a></li>
                             </ul>
                         </li>
 
                         <li>
                             <a href="#" class="sf-with-ul">
-                                GREATCOIN
+                                <?php echo __("GREATCOIN") ?>
                                 <span class="sf-sub-indicator"><i class="fa fa-angle-down "></i></span>
                             </a>
                             <ul>
-                                <li><a href="/greatcoin" class="sf-with-ul">GREAT COIN</a></li>
-                                <li><a href="/greatcoin/whatIsGreatcoin" class="sf-with-ul">INTRODUCTION WHAT IS GREATCOIN</a></li>
-                                <li><a href="/greatcoin/benefitsOfGreatcoin" class="sf-with-ul">BENEFITS OF GREATCOIN</a></li>
-                                <li><a href="/greatcoin/howGreatcoinWorks" class="sf-with-ul">HOW GREATCOIN WORKS</a></li>
+                                <li><a href="/greatcoin" class="sf-with-ul"><?php echo __("GREAT COIN") ?></a></li>
+                                <li><a href="/greatcoin/whatIsGreatcoin" class="sf-with-ul"><?php echo __("INTRODUCTION WHAT IS GREATCOIN") ?></a></li>
+                                <li><a href="/greatcoin/benefitsOfGreatcoin" class="sf-with-ul"><?php echo __("BENEFITS OF GREATCOIN") ?></a></li>
+                                <li><a href="/greatcoin/howGreatcoinWorks" class="sf-with-ul"><?php echo __("HOW GREATCOIN WORKS") ?></a></li>
                             </ul>
                         </li>
 
                         <li>
-                            <a href="/keep_in_touch">KEEP IN TOUCH</a>
+                            <a href="/keep_in_touch"><?php echo __("KEEP IN TOUCH") ?></a>
                         </li>
                     </ul>
                 </nav>
@@ -159,9 +157,9 @@ use_helper('I18N');
             <div class="container">
                 <div class="row">
                     <section class="col-lg-6 col-md-6 col-xs-12 col-sm-6 footer-one">
-                        <h3>Latest news &amp; event</h3>
+                        <h3><?php echo __("Latest news & event") ?></h3>
                         <ul style="margin-left: 22px;">
-                            <li type="disc">Coming soon...</li>
+                            <li type="disc"><?php echo __("Coming soon...") ?></li>
                         </ul>
                         <ul style="margin-left: 22px; display: none;">
                             <li type="disc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
@@ -189,7 +187,7 @@ use_helper('I18N');
         <div class="footer-bottom">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 "> © Copyright 2014. All Rights Reserved.</div>
+                    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 "> © <?php echo __("Copyright 2014. All Rights Reserved.") ?></div>
                 </div>
             </div>
         </div>
@@ -223,7 +221,6 @@ use_helper('I18N');
 <script src="/js/imagesloaded.pkgd.min.js"></script>
 <script src="/js/waypoints.min.js"></script>
 <script src="/js/custom.js"></script>
-<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 <script type="text/javascript">
     function initActiveMenu() {
@@ -244,10 +241,6 @@ use_helper('I18N');
     }
 
     initActiveMenu();
-    
-    function googleTranslateElementInit() {
-        new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'km,zh-CN,zh-TW', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-    }
 </script>
 
 <?php include_slot("javascript") ?>
