@@ -7,7 +7,7 @@ use_helper('I18N');
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12" id="contact-form">
-                <h3 class="title">Send Us an Email</h3>
+                <h3 class="title"><?php echo __("Send Us an Email") ?></h3>
 
                 <div class="divider"></div>
                 
@@ -42,13 +42,13 @@ use_helper('I18N');
             </div>
             <div class="col-lg-4 col-md-4 col-xs-12 col-sm-6">
                 <div class="address widget">
-                    <h3 class="title">Keep In Touch</h3>
+                    <h3 class="title"><?php echo __("Keep In Touch") ?></h3>
                     <p>
-                        Feel free to talk to our online representative at any time you please using our Live Chat system on our website or one of the below instant messaging programs.
+                        <?php echo __("Feel free to talk to our online representative at any time you please using our Live Chat system on our website or one of the below instant messaging programs.") ?>
                     </p>
 
                     <p>
-                        Please be patient while waiting for response. (24/7 Support!)
+                        <?php echo __("Please be patient while waiting for response. (24/7 Support!)") ?>
                     </p>
 <!--                    <h3 class="title">Head Office</h3>-->
 <!--                    <ul class="contact-us">-->

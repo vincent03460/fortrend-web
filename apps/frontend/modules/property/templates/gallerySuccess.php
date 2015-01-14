@@ -1,9 +1,10 @@
+<?php
+use_helper('I18N');
+?>
+
 <div class="recentworks bottom-pad">
     <div class="container" style="font-size: 11px">
-        <span style="font-size: 35px; font-family: times;">GALLERY</span></br>
-        s varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</br>
-        Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed</br>
-        ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec o</br>
+        <span style="font-size: 35px; font-family: times;"><?php echo __("GALLERY") ?></span>
     </div>
 </div>
 

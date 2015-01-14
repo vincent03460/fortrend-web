@@ -17,4 +17,10 @@ class homeActions extends sfActions
   public function executeIndex()
   {
   }
+
+  public function executeLanguage()
+  {
+    $this->getUser()->setCulture($this->getRequestParameter('lang'));
+    $this->redirect($this->getRequest()->getReferer());
+  }
 }

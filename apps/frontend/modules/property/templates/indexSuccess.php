@@ -1,9 +1,10 @@
+<?php
+use_helper('I18N');
+?>
+
 <div class="recentworks bottom-pad">
    <div class="container" style="font-size: 11px">
-      <span style="font-size: 35px; font-family: times;">PROPERTY</span></br>
-s varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui.</br>
-Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed</br>
-ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec o</br>
+      <span style="font-size: 35px; font-family: times;"><?php echo __("PROPERTY") ?></span>
   </div>
 </div>
 
@@ -16,9 +17,8 @@ ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecena
 <div class="recentworks bottom-pad">
    <div class="container"  style="color: #A4A4A4">
        <b><small>
-         138 precious suites available, spaciously distributed up to 24 levels. The apartment is close to work and offers you space for leisure and recreation when you reach home.</br></br>
-        Located strategically in the vibrant city life of KL, this development has been designed as a lifestyle hub for the vibrant, upwardly mobile community.</br></br>
-        And when you make your home at here, the vibrant life in the heart of Malaysia will be right at your doorstep.</br></br>
+         <?php echo __("138 precious suites available, spaciously distributed up to 24 levels. The apartment is close to work and offers you space for leisure and recreation when you reach home. %1%Located strategically in the vibrant city life of KL, this development has been designed as a lifestyle hub for the vibrant, upwardly mobile community. %1%And when you make your home at here, the vibrant life in the heart of Malaysia will be right at your doorstep.", array("%1%" => "<br/><br/>")) ?>
+        </br></br>
         </small></b>
   </div>
 </div>

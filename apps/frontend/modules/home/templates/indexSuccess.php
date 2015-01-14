@@ -1,3 +1,7 @@
+<?php
+use_helper('I18N');
+?>
+
 <center>
 <div class="fullwidthbanner-container">
     <div class="fullwidthbanner rslider">
@@ -20,14 +24,14 @@
       <b>
       <div class="row" style="color: #A4A4A4;">
               <div style="font-family:Monotype Corsiva; font-size: 40px;">
-                Development of a 24 Storey
+                <?php echo __("Development of a 24 Storey") ?>
               </div>
                 </br>
               <div style="font-family:Monotype Corsiva; font-size: 40px;">
-                5-Star Service Suites
+                <?php echo __("5-Star Service Suites") ?>
                 </br>
               </div>
-        <small>138 precious suites available, spaciously distributed up to 24 levels. The apartment is close to work and offers you space for leisure and recreation when you reach home.</small>
+        <small><?php echo __("138 precious suites available, spaciously distributed up to 24 levels. The apartment is close to work and offers you space for leisure and recreation when you reach home.") ?></small>
         <div class="clearfix"></div>
      </div>
     </b>
