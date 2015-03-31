@@ -8,4 +8,7 @@ class componentComponents extends sfComponents
   public function executeLeftmenu()
   {
   }
+  public function executeLeftmenu2()
+  {
+  }
 }
