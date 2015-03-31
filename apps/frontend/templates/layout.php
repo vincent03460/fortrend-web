@@ -133,6 +133,71 @@ use_helper('I18N');
                             </ul>
                         </li>
 
+                        <?php if ($sf_context->getRequest()->getParameter("demo") == "1") { ?>
+                        <li>
+                            <a href="#" class="sf-with-ul">
+                                <?php echo __("MM2H") ?>
+                                <span class="sf-sub-indicator"><i class="fa fa-angle-down "></i></span>
+                            </a>
+                            <ul>
+                                <li><a href="/mm2h/page1?demo=1"><?php echo __("2015马来西亚房产暨第二家园广州说明会首度开幕") ?></a></li>
+                                <li><a href="/mm2h/page2?demo=1"><?php echo __("GST消费税 必推高屋价") ?></a></li>
+                                <li><a href="/mm2h/page3?demo=1"><?php echo __("中国人在马来西亚买房有限制吗？") ?></a></li>
+                                <li><a href="/mm2h/page4?demo=1"><?php echo __("办理马来西亚第二家园好处多") ?></a></li>
+                                <li><a href="/mm2h/page5?demo=1"><?php echo __("如何申請马来西亚“第二家园计划”") ?></a></li>
+                                <li><a href="/mm2h/page6?demo=1"><?php echo __("马来西亚“第二家园”计划的优势") ?></a></li>
+                                <li><a href="/mm2h/page7?demo=1"><?php echo __("马来西亚“第二家园计划” 中国人人数高居榜首") ?></a></li>
+                                <li><a href="/mm2h/page8?demo=1"><?php echo __("马来西亚mm2h房产投资") ?></a></li>
+                                <li><a href="/mm2h/page9?demo=1"><?php echo __("马来西亚房地产税费详解") ?></a></li>
+                                <li><a href="/mm2h/page10?demo=1"><?php echo __("马来西亚第二家园或成为亚洲投资移民新星") ?></a></li>
+                                <li><a href="/mm2h/page11?demo=1"><?php echo __("马来西亚第二家园计划常见问题") ?></a></li>
+                                <li><a href="/mm2h/page12?demo=1"><?php echo __("马来西亚节庆年整装待发 第二家园成亮点") ?></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="sf-with-ul">
+                                <?php echo __("O2O") ?>
+                                <span class="sf-sub-indicator"><i class="fa fa-angle-down "></i></span>
+                            </a>
+                            <ul>
+                                <li><a href="/o2o/page1?demo=1"><?php echo __("O2O全渠道成为电子商务发展的新趋势") ?></a></li>
+                                <li><a href="/o2o/page2?demo=1"><?php echo __("O2O是打造全渠道零售的必经之路") ?></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="sf-with-ul">
+                                <?php echo __("企业文化") ?>
+                                <span class="sf-sub-indicator"><i class="fa fa-angle-down "></i></span>
+                            </a>
+                            <ul>
+                                <li><a href="/enterprise/page1?demo=1"><?php echo __("企业文化=工匠精神") ?></a></li>
+                                <li><a href="/enterprise/page2?demo=1"><?php echo __("梦想·激励人心的演说") ?></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="sf-with-ul">
+                                <?php echo __("核心价值") ?>
+                                <span class="sf-sub-indicator"><i class="fa fa-angle-down "></i></span>
+                            </a>
+                            <ul>
+                                <li><a href="/core_value/page1?demo=1"><?php echo __("核心价值（房地产）") ?></a></li>
+                                <li><a href="/core_value/page2?demo=1"><?php echo __("从化项目图") ?></a></li>
+                                <li><a href="/core_value/page4?demo=1"><?php echo __("金边项目用图") ?></a></li>
+                                <li><a href="/core_value/page3?demo=1"><?php echo __("房地产资讯") ?></a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#" class="sf-with-ul">
+                                <?php echo __("矿业开采") ?>
+                                <span class="sf-sub-indicator"><i class="fa fa-angle-down "></i></span>
+                            </a>
+                            <ul>
+                                <li><a href="/mining/page1?demo=1"><?php echo __("矿业开采") ?></a></li>
+                                <li><a href="/mining/page2?demo=1"><?php echo __("视频") ?></a></li>
+                            </ul>
+                        </li>
+                        <?php } ?>
+
                         <li>
                             <a href="/keep_in_touch"><?php echo __("KEEP IN TOUCH") ?></a>
                         </li>
